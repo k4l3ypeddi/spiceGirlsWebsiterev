@@ -1,0 +1,128 @@
+h1 {
+    color:blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    color:rgb(191, 73, 255);
+    text-align: center;
+
+}
+#yas {
+color:ivory;
+font-family: 'Courier New', Courier, monospace;
+font-size: 25px;
+
+}
+h2 {
+    color:rgb(244, 168, 235);
+    text-align: center;
+    top:32%;
+    font-size: 20px;
+    font-family:cursive;
+}
+#link {
+    position:absolute;
+    text-decoration:underline;
+    color:rgb(59, 13, 244);
+    font-family: cursive;
+    font-size: 20px;
+    left:65%;
+    top:60%;
+}
+
+#link2 {
+    position:absolute;
+    text-decoration:underline;
+    color:rgb(59, 13, 244);
+    font-family: cursive;
+    font-size: 20px;
+    left:55%;
+    top:60%;
+}
+#link3 {
+    position:absolute;
+    text-decoration:underline;
+    color:rgb(59, 13, 244);
+    font-family: cursive;
+    font-size: 20px;
+    left:40%;
+    top:60%;
+}
+#link4 {
+position:absolute;
+text-decoration:underline;
+color:rgb(59, 13, 244);
+font-family: cursive;
+font-size: 20px;
+left:30%;
+top:60%;
+}
+#link5 {
+    position:absolute;
+    text-decoration:underline;
+    color:rgb(59, 13, 244);
+    font-family: cursive;
+    font-size: 20px;
+    left:48%;
+    top:60%;
+    }
+#bow2 {
+    position:absolute;
+    width:300px;
+    height:auto;
+    top:7%;
+    left:40%;
+}
+#bow {
+    position: absolute;
+    width:300px;
+    height:auto;
+    top:50%;
+    left:40%;
+}
+#angel {
+    height:150px;
+    width:auto;
+    position:absolute;
+    left:35%;
+    top:30%;
+}
+#angel2 {
+    height:150px;
+    width:auto;
+    position:absolute;
+    left:60%;
+    top:30%;
+}
+#enter {
+    color:lightskyblue;
+    font-size: 25px;
+    font-family:;
+    font-style: italic;
+}
+#enter2 {
+    color:rgb(139, 135, 250);
+    font-size: 25px;
+    font-family:;
+    font-style: italic;
+}
+#click {
+    position:absolute;
+    left:45%;
+    top:45%;
+    font-family:monospace;
+}
+#world {
+    position:absolute;
+    top:2%;
+    left:62%;
+    width:50px;
+}
+#spice {
+    position:absolute;
+    left:33%;
+    top:75%;
+
+}

@@ -1,0 +1,292 @@
+
+
+body {
+   /*background-image:url(stickers/sparkles3.gif);
+   background-repeat: repeat;*/
+   background-color:rgb(255, 255, 255);
+  cursor: url(images/cursor.pix.png),auto;
+  height:900px;
+}
+
+#rec {
+  height: 600px;
+  width: 1000px;
+  position:absolute;
+  left:15%;
+  top:12%;
+  }
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
+
+   /*#intro {
+      color: hsl(300, 92%, 76%);
+      position:fixed;
+      background: url(http://www.gigaglitters.com/img/DCglit107.gif); 
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+      transform: rotate(-10deg);
+    }
+    #intro2 {
+      color: hsl(300, 92%, 76%);
+      text-align: center;
+      position:fixed;
+      background: url(http://www.gigaglitters.com/img/DCglit107.gif); 
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }*/
+    
+    .button1 {
+      position: fixed;
+      left:15%;
+      top:30%;
+      z-index: 3;
+    }
+    .button2 {
+      position: fixed;
+      left:15%;
+      top:45%;
+      z-index: 3;
+    }
+    .button3 {
+      position: fixed;
+      left:15%;
+      top:60%;
+      z-index: 3;
+    }
+
+form {
+  position: fixed;
+  left: 43%;
+  top: 90%;
+}
+.container-grid {
+  display: grid;
+  grid-template-columns: auto auto auto; 
+  grid-gap: 10px;
+  grid-template-rows: 100px 100px 100px;
+ 
+}
+    #wobble {
+      font-size: 50px;
+      text-decoration: underline;
+      
+    }
+   
+    
+#menu-area {
+  position: absolute;
+text-align: center;
+font-size:35px;
+}
+    
+/*    
+#gingerspice{
+  position: absolute;
+  width: 150px;
+  height: auto;
+  top:27%;
+  left: 25%;
+  z-index: 2;
+}
+   
+#babyspice {
+  position:absolute;
+  width: 115px;
+height:auto;
+  top: 23%;
+  left: 37%;
+  z-index: 2;
+}
+#scaryspice {
+  position:absolute;
+  width: 140px;
+  height: auto;
+  top: 28%;
+  left: 45%;
+  z-index: 2;
+}
+   #sportyspice {
+      position:absolute;
+      width: 125px;
+      height: auto;
+      top:27%;
+      left:55%;
+      z-index: 2;
+    }
+    
+    #poshspice {
+      height:auto;
+      width:140px;
+      position:absolute;
+    top: 27%;
+    left:65%;
+    z-index: 2;
+    }
+#background {
+      margin-left: auto;
+      margin-right:auto;
+      height: auto;
+      width:200px;
+      top:5%;
+      left:5%;
+      position: absolute;
+      z-index:1;
+}
+   /* #background {
+      margin-left: auto;
+      margin-right:auto;
+      height: auto;
+      width:500px;
+      top:25%;
+      left:33%;
+      position: absolute;
+      z-index:1;
+    } 
+/*    
+.div
+  #dress {
+      position: absolute;
+      top: 700px;
+      left: 740px;
+      height:90px;
+      width:auto;
+      z-index:2 ;
+    
+    }
+
+    #heart {
+      position: absolute;
+      top: 810px;
+      left: 540px;
+      height:60px;
+      width:auto;
+      z-index:2;
+    }
+#boots { 
+    position: absolute;
+      top: 830px;
+      left: 610px;
+      height:100px;
+      width:auto;
+      z-index:2;
+    }
+#babytee {
+  position: absolute;
+      top: 820px;
+      left: 810px;
+      height:90px;
+      width:auto;
+      z-index:2;
+}
+#sticker1 {
+  position: absolute;
+  top: 700px;
+  left: 600px;
+  height:80px;
+  width:auto;
+  z-index:2;
+}
+  #sticker2 {
+    position: absolute;
+    top: 870px;
+    left: 700px;
+    height:50px;
+    width:auto;
+    z-index:2;
+  }
+
+  #sticker3 {
+    position: absolute;
+    top: 750px;
+    left: 550px;
+    height:50px;
+    width:auto;
+    z-index:2;
+  }
+  #sticker4 {
+    position: absolute;
+    top: 700px;
+    left: 550px;
+    height:60px;
+    width:auto;
+    z-index:2;
+  }
+  #sticker5 {
+    position: absolute;
+    top: 700px;
+    left: 700px;
+    height:60px;
+    width:auto;
+    z-index:2;
+  }
+  #sticker6 {
+    position: absolute;
+    top: 700px;
+    left: 890px;
+    height:40px;
+    width:auto;
+    z-index:2;
+  }
+  #sticker7 {
+    position: absolute;
+    top: 800px;
+    left: 700px;
+    height:40px;
+    width:auto;
+    z-index:2;
+  }
+  #sticker8 {
+    position: absolute;
+    top: 890px;
+    left: 580px;
+    height:40px;
+    width:auto;
+    z-index:2;
+  }
+  #sticker9 {
+    position: absolute;
+    top: 800px;
+    left: 600px;
+    height:40px;
+    width:auto;
+    z-index:2;
+  }
+  #sticker10 {
+    position: absolute;
+    top: 650px;
+    left: 600px;
+    height:30px;
+    width:auto;
+    z-index:2;
+  }
+  #sticker11 {
+    position: absolute;
+    top: 850px;
+    left: 500px;
+    height:70px;
+    width:auto;
+    zindex:2;
+  }
+  /* customizable snowflake styling 
+  .snowflake {
+    color: #fff;
+    
+
+
+
+
+

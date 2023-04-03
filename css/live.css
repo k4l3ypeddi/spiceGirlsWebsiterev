@@ -1,0 +1,114 @@
+body {
+  background-color: lavenderblush;
+  
+}
+* + * {
+  margin-top: 1.5em;
+}
+h1{
+  color:rgb(247, 199, 247);
+  font-size:25px;
+}
+.home {
+  position:absolute;
+  left:5%;
+  top:5%;
+  height:50px;
+  width:auto;
+  background-color: lightpink;
+}
+.home:hover {  
+  background-color: hotpink;
+  }
+  
+article {
+  background-color:whitesmoke;
+  box-shadow: 0 0 0.9em rgb(248, 177, 220);
+  margin: 0 auto;
+  padding: 0.5em 1em;
+  max-width: 660px;
+}
+#musiclogo {
+  position:absolute;
+  left:42%;
+  top:5%;
+  width:200px;
+}
+
+@font-face {
+  font-family: "DM Sans";
+  src: "https://fonts.google.com/specimen/DM+Sans";
+  }
+  @font-face {
+    font-family: "";
+    src: "";
+    }
+  
+p {
+  font-family: 'Courier New', Courier, monospace;
+  color:darkslateblue;
+size:10px;
+
+
+}
+ /*.video-container {
+    position:relative;
+  }
+  #videoplayer1 {
+      height: 500px;
+      width: auto;
+      top:100px;
+    left: 200px;
+    position: absolute; 
+  }
+  
+  #videoplayer2 {
+      height: 350px;
+      width: auto;
+      top:900px;
+      left:100px
+      position: absolute;
+  }
+  #videoplayer3 {
+    height: 400px;
+    width:auto;
+    position:absolute;
+    left:700px;
+    top: 50px;
+    }
+#videoplayer4 {
+  height:600px;
+  width: auto;
+  position: absolute;
+  left:400px;
+  top:700px;
+}
+
+#videoplayer6 {
+  height: 400px;
+  width: auto;
+  position:absolute;
+  left:150px;
+  top:500px;
+}
+#videoplayer7 {
+  height: 300px;
+  width: auto;
+  position:absolute;
+  left:675px;
+  top:800px;
+}
+#videoplayer8 {
+  height: 300px;
+  width: auto;
+  position:absolute;
+  left:850px;
+  top:400px;
+}
+#videoplayer9 {
+  height: 300px;
+  width: auto;
+  position:absolute;
+  left:100px;
+  top:800px;
+}

@@ -1,0 +1,81 @@
+body {
+    background-color: whitesmoke;
+}
+#videosList {
+  max-width: 600px; 
+   overflow: hidden;
+ }
+ 
+ .video {
+   background-image: url();
+   height: 330px;
+   width: 600px;
+   margin-bottom: 50px;
+ }
+ 
+ /* Hide Play button + controls on iOS */
+ video::-webkit-media-controls {
+     display:none !important;
+ }
+
+/*.video-container {
+    position:relative;
+  }
+  #videoplayer1 {
+      height: 200px;
+      width: auto;
+      top:100px;
+    left: 200px;
+    position: absolute; 
+  }
+  
+  #videoplayer2 {
+      height: 200px;
+      width: auto;
+      top:900px;
+      left:100px
+      position: absolute;
+  }
+  #videoplayer3 {
+    height: 200px;
+    width:auto;
+    position:absolute;
+    left:700px;
+    top: 50px;
+    }
+#videoplayer4 {
+  height:200px;
+  width: auto;
+  position: absolute;
+  left:400px;
+  top:700px;
+}
+
+#videoplayer6 {
+  height: 200px;
+  width: auto;
+  position:absolute;
+  left:150px;
+  top:500px;
+}
+#videoplayer7 {
+  height: 200px;
+  width: auto;
+  position:absolute;
+  left:675px;
+  top:800px;
+}
+#videoplayer8 {
+  height: 200px;
+  width: auto;
+  position:absolute;
+  left:850px;
+  top:400px;
+}
+#videoplayer9 {
+  height: 200px;
+  width: auto;
+  position:absolute;
+  left:100px;
+  top:800px;
+}

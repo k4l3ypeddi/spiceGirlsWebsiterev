@@ -1,0 +1,46 @@
+
+    body {
+       background-image:url(stickers/sparkles3.gif);
+       background-repeat: repeat;
+       background-color:rgb(255, 223, 229);
+       z-index: 5;
+
+    };
+
+      @font-face {
+      font-family: "Fiolex Girls";
+      src: "https://www.dafont.com/fiolex-girls.font"
+      }
+      @font-face {
+        font-family:Menlo;
+        src: url(https://fontsnetwork.com/menlo-regular-font/);
+      }
+      .home {
+        position:absolute;
+        left:5%;
+        top:5%;
+        height:50px;
+        width:auto;
+        background-color: lightpink;
+      }
+      .home:hover {  
+      background-color: hotpink;
+      }
+      
+#name {
+    font-family:Menlo;
+    ;
+}
+#email {
+  font-family:Menlo;
+}
+
+.form {
+  position:Absolute;
+  left:40%;
+  top:25%;
+}
+.label  {
+  font-family:Fiolex Girls;
+  font-size: 25px;
+}
